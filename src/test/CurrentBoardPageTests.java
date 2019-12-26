@@ -48,7 +48,6 @@ public class CurrentBoardPageTests extends TestBase {
 
        driver.findElements(By.xpath("//span[@class='js-add-a-card']")).get(0).click();
        Thread.sleep(5000);
-
     }
     @Test
     public void  addFirstCardInNewList () throws InterruptedException {
@@ -153,5 +152,4 @@ public class CurrentBoardPageTests extends TestBase {
 
         System.out.println("after  lists " + counter);
     }
-
 }
